@@ -91,7 +91,8 @@ dependencies {
             [group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.21'],
 
             // Xstream xml converter
-            [group: 'com.thoughtworks.xstream', name: 'xstream', version: '1.4.2']
+            [group: 'com.thoughtworks.xstream', name: 'xstream', version: '1.4.2'],
+            [group: 'org.quartz-scheduler', name: 'quartz', version: '2.1.7']
     )
     testCompile 'junit:junit:4.11',
             'junit:junit-dep:4.11',
