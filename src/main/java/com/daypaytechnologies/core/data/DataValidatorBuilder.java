@@ -5,6 +5,7 @@ import net.fortuna.ical4j.model.ValidationException;
 import net.fortuna.ical4j.model.property.RRule;
 import org.apache.commons.lang.StringUtils;
 import org.joda.time.LocalDate;
+import org.quartz.CronExpression;
 import org.springframework.util.ObjectUtils;
 import java.math.BigDecimal;
 import java.text.ParseException;
